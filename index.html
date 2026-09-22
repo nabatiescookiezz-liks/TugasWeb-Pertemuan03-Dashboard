@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Katalog Produk | NacookiezShop</title>
+    <meta
+      name="description"
+      content="Temukan berbagai produk pilihan dengan kualitas terbaik dan harga yang kompetitif di NacookiezShop."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <span class="brand-mark">N</span>
+            NacookiezShop
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Kategori</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Promo</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Best Seller</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Kontak</a></li>
+            </ul>
+
+            <div class="nav-actions">
+              <a href="#" class="nav-login">Login</a>
+              <button class="btn btn-primary btn-cart" type="button">Cart (3)</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Koleksi baru</span>
+            <h1>Katalog Produk Pilihan</h1>
+        
+              <p>
+                 Temukan berbagai produk pilihan untuk kebutuhan sehari-hari
+                 dengan harga yang terjangkau.
+             </p>
+    
+
+            <div class="hero-actions">
+              <a href="#catalog" class="btn btn-primary">Belanja Sekarang</a>
+              <a href="#" class="btn btn-outline">Lihat Promo</a>
+            </div>
+          </div>
+
+
+          <div class="hero-visual" aria-label="Produk unggulan">
+            <div class="promo-card large-card">
+              <img
+                src="images/sepatu (2).jpg"
+                alt="Sepatu sneakers trend"
+              />
+              <div class="promo-badge">Flash Sale</div>
+            </div>
+            <div class="mini-card">
+              <img
+                src="images/tas.jpg"
+                alt="tas premium"
+              />
+              <div class="mini-info">
+                <span>Best Seller</span>
+                <strong>Rp 749.000</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog" id="catalog">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">Produk unggulan</span>
+              <h2>Katalog produk favorit</h2>
+            </div>
+            <div class="filter-pills" aria-label="Filter produk">
+              <button class="is-active" type="button">Semua</button>
+              <button type="button">Elektronik</button>
+              <button type="button">Fashion</button>
+              <button type="button">Audio</button>
+              <button type="button">Sport</button>
+              <button type="button">Furniture</button>
+              <button type="button">Laptop</button>
+              <button type="button">Beauty</button>
+              <button type="button">Home</button>
+            </div>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card">
+              <div class="product-image">
+                <img
+                  src="images/tas.jpg"
+                  alt="Tas pria premium"
+                />
+              </div>
+              <div class="product-body">
+                <span class="tag">Fashion</span>
+                <h3>Urban Leather Bag</h3>
+                <p>Premium carry-all untuk kerja dan daily style.</p>
+                <div class="product-meta">
+                  <span class="price">Rp 749.000</span>
+                  <span class="installment">/ bln</span>
+                </div>
+                <button type="button">Tambah ke Keranjang</button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image">
+                <img
+                  src="images/headphone.jpg"
+                  alt="Headphone wireless"
+                />
+              </div>
+              <div class="product-body">
+                <span class="tag">Elektronik</span>
+                <h3>AudioPro X10</h3>
+                <p>Noise cancelling dan audio premium untuk fokus.</p>
+                <div class="product-meta">
+                  <span class="price">Rp 1.299.000</span>
+                  <span class="installment">/ bln</span>
+                </div>
+                <button type="button">Tambah ke Keranjang</button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image">
+                <img
+                  src="images/airbuds.jpg"
+                  alt="Earphone premium"
+                />
+              </div>
+              <div class="product-body">
+                <span class="tag">Audio</span>
+                <h3>Pulse Buds</h3>
+                <p>Desain ringan, bass kuat, dan baterai tahan lama.</p>
+                <div class="product-meta">
+                  <span class="price">Rp 399.000</span>
+                  <span class="installment">/ bln</span>
+                </div>
+                <button type="button">Tambah ke Keranjang</button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image">
+                <img
+                  src="images/sepatu (2).jpg"
+                  alt="Sepatu lari modern"
+                />
+              </div>
+              <div class="product-body">
+                <span class="tag">Sport</span>
+                <h3>Velocity Run</h3>
+                <p>Sol empuk dan ringan untuk aktifitas harian.</p>
+                <div class="product-meta">
+                  <span class="price">Rp 899.000</span>
+                  <span class="installment">/ bln</span>
+                </div>
+                <button type="button">Tambah ke Keranjang</button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image">
+                <img
+                  src="images/lampu.jpg"
+                  alt="Lampu rumah modern"
+                />
+              </div>
+              <div class="product-body">
+                <span class="tag">Home</span>
+                <h3>Halo Lamp</h3>
+                <p>Pencahayaan hangat untuk ruang kerja dan kamar.</p>
+                <div class="product-meta">
+                  <span class="price">Rp 549.000</span>
+                  <span class="installment">/ bln</span>
+                </div>
+                <button type="button">Tambah ke Keranjang</button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image">
+                <img
+                  src="images/kursi.jpg"
+                  alt="Kursi minimalis"
+                />
+              </div>
+              <div class="product-body">
+                <span class="tag">Furniture</span>
+                <h3>Luma Chair</h3>
+                <p>Desain minimalis untuk ruang kerja modern.</p>
+                <div class="product-meta">
+                  <span class="price">Rp 1.099.000</span>
+                  <span class="installment">/ bln</span>
+                </div>
+                <button type="button">Tambah ke Keranjang</button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image">
+                <img
+                  src="images/skincare.jpg"
+                  alt="Gelas skincare premium"
+                />
+              </div>
+              <div class="product-body">
+                <span class="tag">Beauty</span>
+                <h3>Glow Ritual Set</h3>
+                <p>Perawatan kulit dengan formula lembut dan aman.</p>
+                <div class="product-meta">
+                  <span class="price">Rp 329.000</span>
+                  <span class="installment">/ bln</span>
+                </div>
+                <button type="button">Tambah ke Keranjang</button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image">
+                <img
+                  src="images/laptop.jpg"
+                  alt="Laptop modern"
+                />
+              </div>
+              <div class="product-body">
+                <span class="tag">Laptop</span>
+                <h3>CookieBook Air</h3>
+                <p>Efisien, ringan, dan siap untuk kerja produktif.</p>
+                <div class="product-meta">
+                  <span class="price">Rp 12.999.000</span>
+                  <span class="installment">/ bln</span>
+                </div>
+                <button type="button">Tambah ke Keranjang</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="testing-doc">
+        <div class="container">
+          <div class="section-head narrow">
+            <div>
+              <span class="eyebrow">Dokumentasi testing</span>
+              <h2>Dokumentasi Responsive Design</h2>
+            </div>
+          </div>
+
+          <div class="test-grid">
+            <div class="test-card">
+              <span class="breakpoint">Mobile</span>
+              <strong>375px</strong>
+              <p>Grid 1 kolom, menu hamburger aktif, teks dan elemen menyesuaikan ukuran layar.</p>
+            </div>
+            <div class="test-card">
+              <span class="breakpoint">Tablet</span>
+              <strong>768px</strong>
+              <p>Grid berubah menjadi 3 kolom dan layout hero mulai menggunakan dua bagian.</p>
+            </div>
+            <div class="test-card">
+              <span class="breakpoint">Desktop</span>
+              <strong>1280px</strong>
+              <p>Grid menggunakan ke 3-4 kolom dengan navigasi dekstop dan spacing yang lebih luas.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <a class="navbar-brand" href="#">
+            <span class="brand-mark">N</span>
+            NacookiezShop
+          </a>
+        </div>
+        <p>© 2026 NacookiezShop. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Support</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
